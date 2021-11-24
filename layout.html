@@ -1,0 +1,506 @@
+<DOCTYPE html>
+    <!--.......................................................................................................................................................................-->
+    <!--.......................................................................................................................................................................-->
+    
+    
+    <!-- التخطيط باستخدام <Div>-->
+<html>
+    <head>
+    <meta charset="utf-8">
+        <meta name="description" content="displain Html-layout">
+        <title>Html-Layout</title>
+    </head>
+    <style>
+        body{
+        padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+        }
+        .header{
+            background-color: #333;
+            color: #fff;
+           
+            text-align: center;
+            padding: 15px 0;
+            
+        }
+        .navigation{
+            background-color: #ddd;
+            color: #676767;
+            text-align: center;
+        }
+        ul{list-style: none; padding: 0;margin: 0;}
+        li{display: inline-block; padding: 10px; margin-left: 20px;}
+         .navigation li select{
+           border: none;
+          padding: 5px;
+            background-color: #ddd;
+            color: #676767;
+            text-align: center;
+        }
+        .content{
+            margin-left: 50px;
+            text-align: center;
+            padding: 20px 0;
+            display: inline-block;
+        }
+         .section1 {
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+             margin-left:10%;
+           display: inline-block;
+        }
+       
+        .section1 div{
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           display: inline-block;
+        }
+       
+        .section1 img{
+            width: 350px;
+            height:auto;
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        
+        .section1 td h4{
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        .section1 p{
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        .footer{
+            background-color: #333;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 0;
+           
+        }
+    </style>
+    <body>
+        <div class="header">
+            <h1>Html-Layout</h1>
+        </div>
+       <div class="navigation">
+            <ul>
+            <li>Home</li>          
+            <li>Css-Unit</li>
+            <li>Html-Layout</li>
+            <li><select><option>Tool</option><option>Font</option><option>Color</option><option>Icons</option></select></li>
+            <li>Contact us</li>
+            </ul>
+        </div>
+        <div class="content">
+             <div class="section1">
+            <div  class="artical1" ><img src="1.jpg"><br><h4>football</h4>   
+                <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></div>
+              <div   class="artical2"><img src="2.jpg"><br><h4>football</h4>
+                   <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></div>
+                   <div   class="artical3"><img src="3.jpg"><br><h4>football</h4>
+                   <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></div>
+               <div   class="artical4"><img src="4.jpg"><br><h4>football</h4>
+                   <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></div>
+               
+            </div></div>
+        <div class="footer">
+            Copyright&copy;2021 All Right Reserved To group1&reg;
+        </div>
+  
+    </body>
+    
+  </html>-->
+    
+    
+    
+    
+   
+    <!--.......................................................................................................................................................................-->
+    <!--.......................................................................................................................................................................-->
+
+    
+    
+    <!-- التخطيط باستخدام <Table>-->
+    <!--
+<html>
+    <head>
+    <meta charset="utf-8">
+        <meta name="description" content="displain Html-layout">
+        <title>Html-Layout</title>
+    </head>
+    <style>
+        body{
+        padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+        }
+        
+         table{
+           width: 100%;
+           
+            
+        }
+    .header{
+            background-color: #333;
+            color: #fff;
+           
+            text-align: center;
+            padding: 15px 0;
+            
+        }
+        .header th{
+           
+           
+            text-align: center;
+            padding: 5px 0;
+            padding-top: 13px;
+            
+        }
+        
+        .navigation{
+           
+           width: 50%;
+            background-color: #ddd;
+            color: #676767;
+            text-align: center;
+        }
+        .navigation td{
+           
+           width: 30%;
+            background-color: #ddd;
+            color: #676767;
+            text-align: center;
+        }
+        .navigation li select{
+           border: none;
+          padding: 5px;
+            background-color: #ddd;
+            color: #676767;
+            text-align: center;
+        }
+       .navigation ul{list-style: none; padding: 0;margin: 0; text-align: center;}
+       .navigation li{display: inline-block; padding: 10px; margin:0 30px; text-align: center; }
+        .content{
+            text-align: center;
+            padding: 20px 0;
+        }
+        .footer{
+            background-color: #333;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            padding: 30px 0;
+           
+        }
+        .section1 {
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        .section1 tr {
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        .section1 td {
+           
+            width: 23%;
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        .section1 td img{
+            width: 300px;
+            height:400px;
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        
+        .section1 td h4{
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        .section1 td p{
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+         .footer td{
+            
+            font-size: 18px;
+            text-align: center;
+            padding: 7px 0;
+           
+        }
+    </style>
+    <body>
+        <table>
+            <tr div class="header" ><th colspan="4"><h1>Html-Layout</h1></th></tr>
+              
+            
+          <!--  <tr class="navigation" >
+                  <td  style="width=33px" colspan="4"><ul>
+            <li>Home</li>          
+            <li>Css-Unit</li>
+            <li>Html-Layout</li>
+            <li><select><option>Tool</option><option>Font</option><option>Color</option><option>Icons</option></select></li>
+            <li>Contact us</li>
+            </ul></td></tr>
+            
+            
+           <!--<tr class="section1" > 
+               <td   class="artical11" ><img src=" 1.jpg"><br><h4>football</h4>   
+                   <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></td>
+               <td   class="artical12"><img src=" 2.jpg"><br><h4>football</h4>
+                   <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></td>
+               <td   class="artical13"><img src=" 3.jpg"><br><h4>football</h4>
+                   <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></td>
+               <td   class="artical14"><img src=" 4.jpg"><br><h4>football</h4>
+                   <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p>
+               </td></tr>
+                 
+            
+             <!--<tr div class="footer">
+                 <td colspan="4">Copyright&copy;2021 All Right Reserved To group1&reg;</td></tr>     
+        
+        </table>
+        <!--
+        <div class="header">
+            <h1>Html-Layout</h1>
+        </div>
+        <div class="navigation">
+            <ul>
+            <li>css-unit</li>
+            <li>html-layout</li>
+            <li>tool</li>
+            </ul>
+        </div>
+        <div class="content">
+            content
+        </div>
+        <div class="footer">
+            Copyright&copy;2021 All Right Reserved To group1&reg;
+        </div>-->
+  
+    </body>
+  </html>
+    
+    
+    
+    <!--.......................................................................................................................................................................-->
+    <!--.......................................................................................................................................................................-->
+    <!--.......................................................................................................................................................................-->
+ 
+   
+ <!-- "Html5"التخطيط باستخدام وسوم-->
+<!--<html>
+    <head>
+    <meta charset="utf-8">
+        <meta name="description" content="displain Html-layout">
+        <title>Html-Layout</title>
+    </head>
+    <style>
+        body{
+        padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+        }
+        header{
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+          
+            padding: 15px 0;
+            
+            
+        }
+         header h1{
+            background-color: #333;
+            color: #fff;
+           display: inline-block;
+            text-align:left;
+           padding-top:  40px;
+               margin-left: 100px;
+            
+        }
+         header ul{
+            background-color: #333;
+            color: #fff;
+          
+            margin-top: 58px;
+             margin-right:150px;
+             list-style: none;
+             display: inline-block;
+               
+             float: right;
+            
+        }
+        header ul li{
+           
+            display: inline-block; padding: 10px; margin-left: 20px;
+        }
+        
+        nav{
+            background-color: #ddd;
+            color: #676767;
+            text-align: center;
+        }
+        nav ul{list-style: none; padding: 0;margin: 0;}
+        nav li{display: inline-block; padding: 10px; margin-left: 20px;}
+        
+         nav li select{
+           border: none;
+          padding: 5px;
+            background-color: #ddd;
+            color: #676767;
+            text-align: center;
+        }
+        section{
+            width: 100%;
+            margin-left: 50px;
+            text-align: center;
+            padding: 20px 0;
+            display: inline-block;
+        }
+        section{
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           display: inline-block;
+        }
+          figure{
+            
+            padding: 7px 0;
+            margin: 5px;
+           display: inline-block;
+        }
+       
+        section figure img{
+            width: 350px;
+            height:auto;
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        
+        section figcaption  h4{
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        section figcaption p{
+            
+            text-align: center;
+            padding: 7px 0;
+            margin: 10px;
+           
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 0;
+           
+        }
+         article{
+             background-color: #ddd;
+             width: 50%;
+             margin-top:40px;
+              margin-bottom:30px;
+             margin-left: 25%;
+              margin-right: 25%;
+             padding-top: 30px;
+             padding-bottom: 30px;
+              text-align: center;
+        }
+    </style>
+    <body>
+        <!--<header>
+        
+            <h1>Html-Layout</h1>  <ul>
+            <li>Html5</li>          
+            <li>Css-Unit</li>
+            <li>Html-Layout</li>
+            <li><select><option>Tool</option><option>Font</option><option>Color</option><option>Icons</option></select></li>
+            <li>css3</li>
+            </ul>
+      
+        </header>
+        <nav>
+            <ul>
+            <li>Html5</li>          
+            <li>Css-Unit</li>
+            <li>Html-Layout</li>
+            <li><select><option>Tool</option><option>Font</option><option>Color</option><option>Icons</option></select></li>
+            <li>css3</li>
+            </ul>
+       </nav>
+        
+            <section>
+                 
+                 <figure class="fg1">  <img src="1.jpg"><br><h4>football</h4> 
+                 <figcaption> <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></figcaption>
+                 </figure>
+                   <figure class="fg2">  <img src="2.jpg"><br><h4>football</h4> 
+                 <figcaption> <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></figcaption>
+                 </figure>
+                  <figure class="fg3">  <img src="3.jpg"><br><h4>football</h4> 
+                 <figcaption> <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></figcaption>
+                 </figure>
+                  <figure class="fg4">  <img src="4.jpg"><br><h4>football</h4> 
+                 <figcaption> <p>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsahgdgfxjcvzsu<br>kjfdgkjfsadgfkjsa</p></figcaption>
+                 </figure>
+                 <article>
+                     <h3>welcom</h3>                     
+                     <p>kjfdgkjfsadgfkjsahgdgfxjcvzgkjfsadgfkjsahgdgfxjcvzgkjfsadgfkjsahgdgfxjcvzsu
+                     <br>kjfdgkjfsadgfkgkjfsadgfkjsahgdgfxjcvzgkjfsadgfkjsahgdgfxjcvzjsahgdgfxjcvzsu<br>kjfdgkjfsgkjfsadg fkjsahgdgfxjcvzadgfkjsa</p></p>
+                </article>
+                    
+          </section>
+   
+               
+        <footer>
+            Copyright&copy;2021 All Right Reserved To group1&reg;
+                 </footer>
+  
+    </body>
+    
+  </html> -->
+    <!--.......................................................................................................................................................................-->
+    <!--.......................................................................................................................................................................-->
+
+
+
+</DOCTYPE>
